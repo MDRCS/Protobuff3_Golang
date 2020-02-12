@@ -1,0 +1,11 @@
+syntax = "proto3" ;
+
+message Message {
+    string sender = 1;
+    string content = 2 ;
+    string receiver = 3 ;
+    int32 ttl = 4 ;
+}
+
+
+
